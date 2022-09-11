@@ -1,0 +1,82 @@
+.plans-container {
+    margin-top: -7rem;
+}
+
+.plans-item {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.plans-item>:nth-child(2)>svg {
+    fill: white;
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    padding: 24px; 
+    gap: 1.5rem;
+    background: var(--caloryCard);
+}
+
+.plans:nth-child(2) {
+    background: var(--planCard);
+
+}
+
+.plans>svg {
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+
+.plan-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.plan-price {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.feature {
+    min-width: 300px;
+    margin: 1.2rem 0;
+}
+
+.feature img {
+    margin-right: 1rem;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.feature span {
+    color: white;
+    font-size: 1rem;
+}
+
+.plan-benefits-icon {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 1rem;
+}
+
+.plan-benefits-text {
+    color: white;
+}
+
+
+.plans:hover {
+    box-shadow: 0 0 15px #ffee10;
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+}
+
+.plan-price:hover {
+    transform: rotateY(360deg);
+}
+

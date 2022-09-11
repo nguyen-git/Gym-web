@@ -1,0 +1,59 @@
+.container-program {
+    padding: 0 2rem;
+    margin-top: -2rem;
+}
+
+.title {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.title p {
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.title div:nth-child(2) {
+    color: white;
+}
+
+.program-category {
+    display: flex;
+    gap: 1rem;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    justify-content: space-between;
+}
+
+.category-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.category:hover {
+    background: var(--planCard);
+}
+
+.category-icon {
+    fill: white;
+    font-size: 2rem;
+}
+
+.join-now {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.join-now img {
+    width: 1rem;
+}

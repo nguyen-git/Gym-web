@@ -1,0 +1,180 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-h {
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    gap: 2rem;
+    flex: 3;
+    flex-direction: column;
+}
+
+.right-h {
+    flex: 1;
+    position: relative;
+    background-color: var(--orange);
+}
+
+.hero span {
+    user-select: none;
+}
+
+
+/* Best ad */
+.the-best-ad {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin-top: 4rem;
+    padding: 20px 12px;
+    border-radius: 4rem;
+    color: white;
+    background-color: #363d42;
+}
+
+.the-best-ad_text {
+    z-index: 2;
+}
+
+.the-best-ad_children {
+    position: absolute;
+    width: 5rem;
+    height: 80%;
+    left: 8px;
+    border-radius: 2rem;
+    background-color: var(--orange);
+    z-index: 1;
+}
+
+/* hero-text */
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.hero-text>div:nth-child(3) {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.hero-benefit {
+    display: flex;
+    font-size: 1rem;
+    gap: 2rem;
+}
+
+.hero-benefit span {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-benefit span:first-child {
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-benefit span:nth-child(2) {
+    color: var(--gray);
+}
+
+.btn-hero:nth-child(2) {
+    background-color: transparent;
+}
+
+
+/* right h */
+.right-h-btn {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.heart-rate {
+    position: absolute;
+    top: 7rem;
+    right: 4rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: max-content;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--darkGrey);
+    color: var(--gray);
+}
+
+.heart-rate span:nth-child(3) {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.heart-rate-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.hero-image {
+    position: absolute;
+    width: 23rem;
+    top: 10rem;
+    right: 8rem;
+    z-index: 1;
+}
+
+.hero-image-back {
+    position: absolute;
+    width: 15rem;
+    top: 4rem;
+    right: 20rem;
+    z-index: -1;
+}
+
+.calories {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 1rem;  
+    top: 33rem;
+    right: 28rem;
+    background-color: var(--caloryCard);
+    padding: 8px 24px;
+    border-radius: 4px;
+}
+
+.calories span:first-child {
+    color: var(--gray);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.calories span {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.calories-icon {
+    width: 26%;
+}
+
+.hero-blur {
+    left: 0;
+    height: 30rem;
+    width: 22rem;
+}

@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer>hr {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer-icon {
+    display: flex;
+    gap: 6rem;
+    font-size: 3rem;
+    color: white;
+}
+
+.footer-logo {
+    margin-bottom: 8rem;
+}
+
+.footer-logo img {
+    width: 10rem;
+}
+
+.footer-blur-left {
+    left: 15%;
+    width: 26rem;
+    height: 12rem;
+}
+
+.footer-blur-right {
+    right: 15%;
+    width: 26rem;
+    height: 12rem;
+    background: red;
+    filter: blur(200px);
+}
